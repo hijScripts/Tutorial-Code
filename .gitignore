@@ -6,3 +6,6 @@ yolov10n.pt
 
 # Ignore my DS
 .DS_Store
+
+# Ignore thumbnail photos
+outputImages/
