@@ -4,6 +4,9 @@ tutorialvenv/
 # Ignore my Yolov10n model
 yolov10n.pt
 
+# Ignore my Yolo11n model
+yolo11n.pt
+
 # Ignore my DS
 .DS_Store
 
