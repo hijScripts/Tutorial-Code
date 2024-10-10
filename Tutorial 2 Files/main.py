@@ -11,7 +11,7 @@ from discord_webhook import DiscordWebhook
 objectModel = YOLO("yolo11n.pt")
 
 # Var to hold the discord webhook
-discWebhook = "https://discord.com/api/webhooks/1293865172892389426/r20u-_3u-PenIF2WbqtQhqvRtzavdQkQEiR_QKH961Jl8C0vg435Eu-cX0aOr01ewx7U"
+discWebhook = "https://discord.com/api/webhooks/1293895293179400215/T5OJvUFrv-m9e4D8ldI6c4-ZSWT6ZkmXTFdx9W4OPcayNtlhvnOZYs4Jr-_vGs1-MY-T"
 
 # Gets default webcam footage
 cap = cv2.VideoCapture(0)
@@ -65,7 +65,7 @@ while True:
     # Updating the currentTime variable
     currentTime = time.time()
 
-    if currentTime - previousTime > timeDelay:
+    if currentTime - previousTime > timeDelay and personDetected:
 
         # Specifying the path of the file
         imgPath = "detected-person.jpg"
