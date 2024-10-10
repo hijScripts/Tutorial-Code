@@ -1,0 +1,7 @@
+# Just run the code 'pip3 install -r requirements.txt' to auto install everything
+# Depending on how you setup your file structure, you may need to copy the path of requirements.txt
+# and instead do 'pip3 install -r "paste path in speech marks"'
+opencv-python
+cvzone
+ultralytics
+discord_webhook
